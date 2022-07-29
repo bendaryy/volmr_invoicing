@@ -180,7 +180,7 @@
                     not reached the registration limit.
                     3% discount (Withholding Tax)
                 </p> --}}
-                <img src="D:/laragon/www/volmr_invoicing/public/storage/terms2.jpeg" width="80%" height="300px" style="margin-top:20px" alt="">
+                <img src="https://invoicing.volmr.com/public/storage/terms2.jpeg" width="80%" height="300px" style="margin-top:20px" alt="">
             </td>
         </tr>
     </table>
