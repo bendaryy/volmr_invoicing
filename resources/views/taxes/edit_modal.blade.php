@@ -18,7 +18,8 @@
                     </div>
                     <div class="form-group col-sm-12 mb-5">
                         {{ Form::label('value', __('messages.common.value').':', ['class' => 'form-label required mb-3']) }}
-                        {{ Form::number('value', null, ['id'=>'editTaxValue','class' => 'form-control form-control-solid', 'min' => 0,'oninput'=>"validity.valid||(value=value.replace(/[e\+\-]/gi,''))",'min'=>'0','value'=>'0','step'=>'.01','required','placeholder' => 'Tax Value']) }}
+                        {{-- {{ Form::number('value', null, ['id'=>'editTaxValue','class' => 'form-control form-control-solid', 'min' => 0,'oninput'=>"validity.valid||(value=value.replace(/[e\+\-]/gi,''))",'min'=>'0','value'=>'0','step'=>'.01','required','placeholder' => 'Tax Value']) }} --}}
+                        {{ Form::number('value', null, ['id'=>'editTaxValue','class' => 'form-control form-control-solid','value'=>'0','required','placeholder' => 'Tax Value']) }}
                     </div>
                     <div class="form-group col-sm-12 mb-5">
                         {{ Form::label('is_default',__('messages.tax.is_default').':', ['class' => 'form-label mb-3']) }}
